@@ -1,0 +1,46 @@
+{
+  "basics":{
+    "name":"saivenkatram",
+    "email":"v.saivenkatram@gmail.com",
+    "mobile":"+91-7997842464"
+  },
+  "carrer":{
+    "info":"To work hard man is success"
+  },
+  "education":[
+    {
+    "degree":"B.Tech",
+    "Institute":"PSCMR",
+    "data":["2015-19","69%"]
+  },
+  {
+  "degree":"10+2",
+  "Institute":"P.B.Sidaharatha Arts and Science",
+  "data":["2013-15","69%"]
+},
+{
+"degree":"S.S.C",
+"Institute":"RAKESH HS",
+"data":["2012-13","68%"]
+}
+],
+"acheivements":[
+{
+  "name":"IIT Bobay certification in 2016<b>1<sup>st</sup>Prize</b>in<q>self Defence</q>"
+}
+],
+"technical":[
+  {
+    "name":"c"
+  },
+  {
+  "name":"java"
+}
+],
+"skills":[
+  {
+  "name":"communication skills",
+  "data":["reading","pki","musiv"]
+}
+]
+}

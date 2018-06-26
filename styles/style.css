@@ -1,0 +1,123 @@
+.main{
+  display: flex;
+  flex-direction: row;
+  justify-content: center
+}
+.child1{
+  max-width: 30%;
+  border: 1px solid orange;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px orange;
+  background-color: #ddd;
+  padding:2%;
+  margin:2%;
+}
+.child2{
+  max-width: 70%;
+    border: 1px solid red;
+      box-shadow: 3px 3px 3px red;
+    background-color: #EBF9FA;
+    padding:2%;
+    margin:2%;
+}
+img{
+  width: 150px;
+  height: 150px;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1{
+  text-align: center;
+}
+table{
+  width: 90%;
+  box-shadow: 3px 3px 3px 3px 3px green;
+}
+td{
+  padding:1px;
+}
+tr:nth-child(even){
+  background-color: green;
+}
+@media only screen and (min-width:320px) and (max-width:480px){
+a{
+  font-size: 20px;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center
+}
+.child1{
+  max-width: 100%;
+  border: 5px solid orange;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px blue;
+  background-color: red;
+  padding:2%;
+  margin:2%;
+}
+.child2{
+  max-width: 100%;
+    border: 5px solid red;
+      box-shadow: 3px 3px 3px blue;
+    background-color: orange;
+    padding:2%;
+    margin:2%;
+}
+}
+@media only screen and (min-width:481px) and (max-width:768px){
+  a{
+    font-size: 30px;
+  }
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center
+}
+.child1{
+  max-width: 100%;
+  border: 5px solid orange;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px blue;
+  background-color: red;
+  padding:2%;
+  margin:2%;
+}
+.child2{
+  max-width: 100%;
+    border: 5px solid red;
+      box-shadow: 3px 3px 3px blue;
+    background-color: orange;
+    padding:2%;
+    margin:2%;
+}
+}
+@media only screen and (min-width:769px) and (max-width:1024px){
+  a{
+    font-size: 30px;
+  }
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center
+}
+.child1{
+  max-width: 100%;
+  border: 5px solid orange;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px blue;
+  background-color: red;
+  padding:2%;
+  margin:2%;
+}
+.child2{
+  max-width: 100%;
+    border: 5px solid red;
+      box-shadow: 3px 3px 3px blue;
+    background-color: orange;
+    padding:2%;
+    margin:2%;
+}
+}
